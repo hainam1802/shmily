@@ -23,14 +23,24 @@
     <link href="/assets/common/calendar.css?v={{ time() }}" rel="stylesheet">
     <link href="/assets/templates/template2/css/style.css?v={{ time() }}" rel="stylesheet">
     <style>
+        html{
+
+            line-height: 1.6rem;
+            box-sizing: border-box;
+
+            overflow-x: hidden;
+
+        }
         body {
+            overflow-x: hidden;
+            background-color: #fae1dd;
+        }
+        .content{
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #fae1dd;
         }
-
         .container {
             position: relative;
         }
@@ -254,6 +264,15 @@
                 transform: scaleX(0.85);
             }
         }
+        @media (max-width: 768px) {
+            .valentines{
+                left: 0;
+            }
+            .shadow{
+                left: 0;
+            }
+
+        }
     </style>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <!--    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K9L0ZFE1PJ"></script>-->
@@ -261,6 +280,7 @@
 </head>
 
 <body id="home">
+<div class="content">
 <div class="container">
     <a href="/info">
         <div class="valentines">
@@ -282,6 +302,7 @@
 </div>
 </div>
 <div class="shadow"></div>
+</div>
 </div>
 <script src="/assets/templates/template2/js/jquery-plugin-collection.js?v=202310131"></script>
 

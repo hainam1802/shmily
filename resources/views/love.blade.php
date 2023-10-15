@@ -23,12 +23,24 @@
     <link href="/assets/common/calendar.css?v={{ time() }}" rel="stylesheet">
     <link href="/assets/templates/template2/css/style.css?v={{ time() }}" rel="stylesheet">
     <style>
+        html{
+
+            line-height: 1.6rem;
+            box-sizing: border-box;
+
+            overflow-x: hidden;
+
+        }
         body {
+
+            overflow-x: hidden;
+            background-color: #fae1dd;
+        }
+        .content{
             display: flex;
             justify-content: center;
             align-items: center;
             height: 100vh;
-            background-color: #fae1dd;
         }
 
         .container {
@@ -251,6 +263,15 @@
                 transform: scaleX(0.85);
             }
         }
+        @media (max-width: 768px) {
+            .valentines{
+                left: 0;
+            }
+            .shadow{
+                left: 0;
+            }
+
+        }
     </style>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <!--    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K9L0ZFE1PJ"></script>-->
@@ -258,25 +279,28 @@
 </head>
 
 <body id="home">
-<div class="container">
-    <div class="valentines">
-        <div class="envelope"></div>
-        <div class="front"></div>
-        <div class="card">
-            <div class="text">Happy</br> Anniversary</br> 1000 Days of love!</div>
-            <div class="heart"</div>
+<div class="content">
+    <div class="container">
+        <div class="valentines">
+            <div class="envelope"></div>
+            <div class="front"></div>
+            <div class="card">
+                <div class="text">Happy</br> Anniversary</br> 1000 Days of love!</div>
+                <div class="heart"</div>
         </div>
-    <div class="hearts">
-        <div class="one"></div>
-        <div class="two"></div>
-        <div class="three"></div>
-        <div class="four"></div>
-        <div class="five"></div>
+        <div class="hearts">
+            <div class="one"></div>
+            <div class="two"></div>
+            <div class="three"></div>
+            <div class="four"></div>
+            <div class="five"></div>
+        </div>
     </div>
-</div>
 </div>
 <div class="shadow"></div>
 </div>
+</div>
+
 <script src="/assets/templates/template2/js/jquery-plugin-collection.js?v=202310131"></script>
 
 <script>
