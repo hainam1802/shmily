@@ -272,6 +272,12 @@
             }
 
         }
+        @media (max-width: 768px) {
+
+            .text{
+                left: 40px;
+            }
+        }
     </style>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <!--    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K9L0ZFE1PJ"></script>-->
