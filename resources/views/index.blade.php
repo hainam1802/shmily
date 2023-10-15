@@ -55,11 +55,11 @@
     <section class="hero">
         <div class="hero-slider hero-slider-s1">
             <div class="slide-item">
-                <img src="https://cdn.biihappy.com/ziiweb/default/template/61338a310cf1357216675f18/cd4bc6073438733c3100008369405f3a.jpg" alt="Hoàng Kiến Văn &amp; Ngô Việt Hoài Wedding site!" class="slider-bg">
+                <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t1.15752-9/387472005_310094468315900_7768750841644309652_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8cd0a2&_nc_ohc=crfzeQAd89cAX-8QVW-&_nc_ht=scontent.fhan14-3.fna&oh=03_AdTVytk53HWBrBdp3_2yhq1X7-nYTTre7lgJ1xf-Dp8tDg&oe=65531E7F" alt="Hoàng Kiến Văn &amp; Ngô Việt Hoài Wedding site!" class="slider-bg">
             </div>
 
             <div class="slide-item">
-                <img src="https://cdn.biihappy.com/ziiweb/default/template/61338a310cf1357216675f18/ea143c7f9061f10c586e4a8e2a346c8e.jpg" alt="Hoàng Kiến Văn &amp; Ngô Việt Hoài Wedding site!" class="slider-bg">
+                <img src="https://scontent.fhan14-3.fna.fbcdn.net/v/t1.15752-9/387472005_310094468315900_7768750841644309652_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=8cd0a2&_nc_ohc=crfzeQAd89cAX-8QVW-&_nc_ht=scontent.fhan14-3.fna&oh=03_AdTVytk53HWBrBdp3_2yhq1X7-nYTTre7lgJ1xf-Dp8tDg&oe=65531E7F" alt="Hoàng Kiến Văn &amp; Ngô Việt Hoài Wedding site!" class="slider-bg">
             </div>
         </div>
         <div class="wedding-announcement">
