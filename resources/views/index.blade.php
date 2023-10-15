@@ -64,7 +64,7 @@
         </div>
         <div class="wedding-announcement">
             <div class="couple-name-merried-text">
-                <h2 class="wow slideInUp" data-wow-duration="1s">Phương Anh &amp; Ai đóa</h2>
+                <h2 class="wow slideInUp" data-wow-duration="1s">Phương Anh &amp; Ai đóa 🥶</h2>
                 <div class="married-text wow fadeIn" data-wow-delay="1s">
                     <h4 class="wow fadeIn" data-wow-delay="1s">We&#039;re getting married</h4>
                 </div>
