@@ -64,16 +64,16 @@
         </div>
         <div class="wedding-announcement">
             <div class="couple-name-merried-text">
-                <h2 class="wow slideInUp" data-wow-duration="1s">Phương Anh &amp; Ai đóa 🥶</h2>
+                <h2 class="wow slideInUp" data-wow-duration="1s">🐰 & 🐺</h2>
                 <div class="married-text wow fadeIn" data-wow-delay="1s">
-                    <h4 class="wow fadeIn" data-wow-delay="1s">We&#039;re getting married</h4>
+                    <h4 class="wow fadeIn" data-wow-delay="1s">1000 days of love</h4>
                 </div>
                 <i class="fa fa-heart"></i>
             </div>
 
             <div class="save-the-date">
-                <h4>Save the date</h4>
-                <span class="date">16 October 2023</span>
+                <h4>Since</h4>
+                <span class="date">19 January 2021</span>
             </div>
         </div>
     </section>
@@ -88,7 +88,7 @@
                         <span class="icon-bar"></span>
                     </button>
                     <div class="couple-logo">
-                        <h1><a href="#home">V <i class="fi flaticon-shape-1"></i> H</a></h1>
+                        <h1><a href="#home">A <i class="fi flaticon-shape-1"></i> H</a></h1>
                     </div>
                 </div>
                 <div id="navbar" class="navbar-collapse collapse navbar-right navigation-holder">
