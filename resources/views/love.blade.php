@@ -1,0 +1,296 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ngô Phương Anh và Ai đó!</title>
+    <meta name="description" content="Ngô Phương Anh &amp; Ai đó - Our Love">
+    <meta name="keywords" content="Ngô Phương Anh &amp; Ai đó - Our Love">
+    <meta property="og:site_name" content="Ngô Phương Anh &amp; Ai đó - Our Love">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Ngô Phương Anh &amp; Ai đó - Our Love">
+    {{--    <meta property="og:url" content="https://preview.iwedding.info">--}}
+    <meta property="og:description" content="Ngô Phương Anh &amp; Ai đó - Our Love">
+    {{--    <meta property="og:image" content="https://cdn.biihappy.com/ziiweb/website/61990349db8f76231c132068/88b6d6c5cb36ccd3725c92f0e0b3d89b.jpeg">--}}
+    {{--    <meta property="og:image:url" content="https://cdn.biihappy.com/ziiweb/website/61990349db8f76231c132068/88b6d6c5cb36ccd3725c92f0e0b3d89b.jpeg">--}}
+    {{--    <meta property="og:image:secure_url" content="https://cdn.biihappy.com/ziiweb/website/61990349db8f76231c132068/88b6d6c5cb36ccd3725c92f0e0b3d89b.jpeg">--}}
+    <meta name="format-detection" content="telephone=no">
+    <link rel="shortcut icon" type="image/x-icon" href="https://iwedding.info/favicon.ico">
+    <link href="/assets/templates/template2/css/libs.css?v={{ time() }}" rel="stylesheet">
+    <link href="https://preview.iwedding.info/templates/template2/css/libs.css?v=202310131" rel="stylesheet">
+    <link href="/assets/common/calendar.css?v={{ time() }}" rel="stylesheet">
+    <link href="/assets/templates/template2/css/style.css?v={{ time() }}" rel="stylesheet">
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #fae1dd;
+        }
+
+        .container {
+            position: relative;
+        }
+
+        .valentines {
+            position: relative;
+            top:50px;
+            left: 40%;
+            cursor: pointer;
+            animation: up 3s linear infinite;
+        }
+
+        @keyframes up {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-30px);
+            }
+        }
+
+
+        .envelope {
+            position: relative;
+            width: 300px;
+            height:200px;
+            background-color: #f08080;
+        }
+
+        .envelope:before {
+            background-color: #f08080;
+            content:"";
+            position: absolute;
+            width: 212px;
+            height: 212px;
+            transform: rotate(45deg);
+            top:-105px;
+            left:44px;
+            border-radius:30px 0 0 0;
+        }
+
+        .card {
+            position: absolute;
+            background-color: #eae2b7;
+            width: 270px;
+            height: 170px;
+            top:5px;
+            left:15px;
+            box-shadow: -5px -5px 100px rgba(0,0,0,0.4);
+        }
+
+        .card:before {
+            content:"";
+            position: absolute;
+            border:3px solid #003049;
+            border-style: dotted;
+            width: 240px;
+            heighT: 140px;
+            left:12px;
+            top:12px;
+        }
+
+        .text {
+            position: absolute;
+            font-family: 'Brush Script MT', cursive;
+            font-size: 28px;
+            text-align: center;
+            line-height:25px;
+            top:19px;
+            left:54px;
+            color: #003049;
+        }
+
+        .heart {
+            background-color: #d62828;
+            display: inline-block;
+            height: 30px;
+            margin: 0 10px;
+            position: relative;
+            top: 110px;
+            left:105px;
+            transform: rotate(-45deg);
+            width: 30px;
+        }
+
+        .heart:before,
+        .heart:after {
+            content: "";
+            background-color: #d62828;
+            border-radius: 50%;
+            height: 30px;
+            position: absolute;
+            width: 30px;
+        }
+
+        .heart:before {
+            top: -15px;
+            left: 0;
+        }
+
+        .heart:after {
+            left: 15px;
+            top: 0;
+        }
+
+        .hearts {
+            position: absolute
+        }
+
+        .one, .two, .three, .four, .five {
+            background-color: red;
+            display: inline-block;
+            height: 10px;
+            margin: 0 10px;
+            position: relative;
+            transform: rotate(-45deg);
+            width: 10px;
+            top:50px;
+        }
+
+        .one:before,
+        .one:after, .two:before, .two:after, .three:before, .three:after, .four:before, .four:after, .five:before, .five:after {
+            content: "";
+            background-color: red;
+            border-radius: 50%;
+            height: 10px;
+            position: absolute;
+            width: 10px;
+        }
+
+        .one:before, .two:before, .three:before, .four:before, .five:before {
+            top: -5px;
+            left: 0;
+        }
+
+        .one:after, .two:after, .three:after, .four:after, .five:after {
+            left: 5px;
+            top: 0;
+        }
+
+        .one {
+            left:10px;
+            animation: heart 1s ease-out infinite;
+        }
+
+        .two {
+            left:30px;
+            animation: heart 2s ease-out infinite;
+        }
+
+        .three {
+            left:50px;
+            animation: heart 1.5s ease-out infinite;
+        }
+
+        .four {
+            left:70px;
+            animation: heart 2.3s ease-out infinite;
+        }
+
+        .five {
+            left:90px;
+            animation: heart 1.7s ease-out infinite;
+        }
+
+        @keyframes heart {
+            0%{
+                transform: translateY(0) rotate(-45deg) scale(0.3);
+                opacity: 1;
+            }
+            100%{
+                transform: translateY(-150px) rotate(-45deg) scale(1.3);
+                opacity: 0.5;
+            }
+        }
+
+        .front {
+            position: absolute;
+            border-right: 180px solid #f4978e;
+            border-top: 95px solid transparent;
+            border-bottom: 100px solid transparent;
+            left:120px;
+            top:5px;
+            width:0;
+            height:0;
+            z-index:10;
+        }
+
+        .front:before {
+            position: absolute;
+            content:"";
+            border-left: 300px solid #f8ad9d;
+            border-top: 195px solid transparent;
+            left:-120px;
+            top:-95px;
+            width:0;
+            height:0;
+        }
+
+        .shadow {
+            position: absolute;
+            width: 330px;
+            height: 25px;
+            border-radius:50%;
+            background-color: rgba(0,0,0,0.3);
+            top:265px;
+            left:-15px;
+            animation: scale 3s linear infinite;
+            z-index:-1;
+            left: 40%;
+        }
+
+        @keyframes scale {
+            0%, 100% {
+                transform: scaleX(1);
+            }
+            50% {
+                transform: scaleX(0.85);
+            }
+        }
+    </style>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <!--    <script async src="https://www.googletagmanager.com/gtag/js?id=G-K9L0ZFE1PJ"></script>-->
+    <!--    <script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-K9L0ZFE1PJ');</script>-->
+</head>
+
+<body id="home">
+<div class="container">
+    <div class="valentines">
+        <div class="envelope"></div>
+        <div class="front"></div>
+        <div class="card">
+            <div class="text">Happy</br> Anniversary</br> 1000 Days of love!</div>
+            <div class="heart"</div>
+        </div>
+    <div class="hearts">
+        <div class="one"></div>
+        <div class="two"></div>
+        <div class="three"></div>
+        <div class="four"></div>
+        <div class="five"></div>
+    </div>
+</div>
+</div>
+<div class="shadow"></div>
+</div>
+<script src="/assets/templates/template2/js/jquery-plugin-collection.js?v=202310131"></script>
+
+<script>
+    $(document).ready(function () {
+        $('.container').mouseenter(function () {
+            $('.card').stop().animate({
+                top: '-90px'
+            }, 'slow');
+        }).mouseleave(function () {
+            $('.card').stop().animate({
+                top: 0
+            }, 'slow');
+        });
+    });
+</script>
+</body>
+</html>
