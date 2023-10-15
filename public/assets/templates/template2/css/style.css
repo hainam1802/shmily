@@ -3245,9 +3245,9 @@ a:focus {
 
 @media (max-width: 550px) {
     .gallery-section .masonry-gallery .grid {
-        width: 100%;
-        float: none;
-        padding: 0 0 15px;
+        width: 50%;
+        /*float: none;*/
+        /*padding: 0 0 15px;*/
     }
 }
 
