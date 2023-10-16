@@ -678,10 +678,10 @@
     {{--    </section>--}}
 </div>
 
-<script src="/assets/templates/template2/js/jquery-plugin-collection.js?v=202310131"></script>
-<script src="/assets/templates/template2/js/script.js?v=202310131"></script>
-<script src="/assets/common/calendar.js?v=202310131"></script>
-<script src="/assets/common/bii.js?v=202310131"></script>
+<script src="/assets/templates/template2/js/jquery-plugin-collection.js?v={{ time() }}"></script>
+<script src="/assets/templates/template2/js/script.js?v={{ time() }}"></script>
+<script src="/assets/common/calendar.js?v={{ time() }}"></script>
+<script src="/assets/common/bii.js?v={{ time() }}"></script>
 <script>
     function createHeart() {
         const heart = document.createElement('div');
