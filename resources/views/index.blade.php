@@ -683,22 +683,41 @@
 <script src="/assets/common/calendar.js?v={{ time() }}"></script>
 <script src="/assets/common/bii.js?v={{ time() }}"></script>
 <script>
+    // function createHeart() {
+    //     const heart = document.createElement('div');
+    //     heart.classList.add('heart');
+    //
+    //     heart.style.left = Math.random() * 100 + "vw";
+    //     heart.style.animationDuration = Math.random() * 2 + 3 + "s";
+    //
+    //     heart.innerText = '💗';
+    //
+    //     document.body.appendChild(heart);
+    //
+    //     setTimeout(() => {
+    //         heart.remove();
+    //     }, 10000);
+    // }
+    // setInterval(createHeart, 1000);
+
+    let heartCount = 0;
     function createHeart() {
+        if (heartCount >= 30) {
+            clearInterval(intervalId); // Ngừng gọi hàm createHeart khi đã đủ 50 cái.
+            return;
+        }
         const heart = document.createElement('div');
         heart.classList.add('heart');
-
         heart.style.left = Math.random() * 100 + "vw";
-        heart.style.animationDuration = Math.random() * 2 + 3 + "s";
-
+        heart.style.animationDuration = Math.random() * 8 + 8 + "s";
         heart.innerText = '💗';
-
         document.body.appendChild(heart);
-
         setTimeout(() => {
             heart.remove();
         }, 10000);
+        heartCount++;
     }
-    setInterval(createHeart, 1000);
+    const intervalId = setInterval(createHeart, 1000);
 </script>
 </body>
 </html>
