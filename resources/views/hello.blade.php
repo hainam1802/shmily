@@ -5,19 +5,18 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ngô Phương Anh và Ai đó!</title>
-    <meta name="description" content="Ngô Phương Anh &amp; Ai đó - Our Love">
-    <meta name="keywords" content="Ngô Phương Anh &amp; Ai đó - Our Love">
-    <meta property="og:site_name" content="Ngô Phương Anh &amp; Ai đó - Our Love">
+    <title>Ngô Phương Anh và Hoàng Hiếu!</title>
+    <meta name="description" content="Phương Anh &amp; Hoàng Hiếu - Our Love">
+    <meta name="keywords" content="Phương Anh &amp; Hoàng Hiếu - Our Love">
+    <meta property="og:site_name" content="Phương Anh &amp; Hoàng Hiếu - Our Love">
     <meta property="og:type" content="website">
-    <meta property="og:title" content="Ngô Phương Anh &amp; Ai đó - Our Love">
-    {{--    <meta property="og:url" content="https://preview.iwedding.info">--}}
-    <meta property="og:description" content="Ngô Phương Anh &amp; Ai đó - Our Love">
-    {{--    <meta property="og:image" content="https://cdn.biihappy.com/ziiweb/website/61990349db8f76231c132068/88b6d6c5cb36ccd3725c92f0e0b3d89b.jpeg">--}}
-    {{--    <meta property="og:image:url" content="https://cdn.biihappy.com/ziiweb/website/61990349db8f76231c132068/88b6d6c5cb36ccd3725c92f0e0b3d89b.jpeg">--}}
-    {{--    <meta property="og:image:secure_url" content="https://cdn.biihappy.com/ziiweb/website/61990349db8f76231c132068/88b6d6c5cb36ccd3725c92f0e0b3d89b.jpeg">--}}
+    <meta property="og:title" content="Phương Anh &amp; Hoàng Hiếu - Our Love">
+    <meta property="og:description" content="Phương Anh &amp; Hoàng Hiếu - Our Love">
+    <meta property="og:image" content="/assets/image/image4.jpg">
+    <meta property="og:image:url" content="/assets/image/image4.jpg">
+    <meta property="og:image:secure_url" content="/assets/image/image4.jpg">
     <meta name="format-detection" content="telephone=no">
-    <link rel="shortcut icon" type="image/x-icon" href="https://iwedding.info/favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="/assets/image/love.png">
     <link href="/assets/templates/template2/css/libs.css?v={{ time() }}" rel="stylesheet">
     <link href="https://preview.iwedding.info/templates/template2/css/libs.css?v=202310131" rel="stylesheet">
     <link href="/assets/common/calendar.css?v={{ time() }}" rel="stylesheet">
