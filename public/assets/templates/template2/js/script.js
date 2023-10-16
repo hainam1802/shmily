@@ -172,7 +172,8 @@
 
                 $(this).css({
                     backgroundImage: "url(" + img + ")",
-                    backgroundPosition: "50% calc( 50% - " + positionValue + ")",
+                    // backgroundPosition: "50% calc( 50% - " + positionValue + ")",
+                    backgroundPosition: "center center",
                     backgroundSize: "cover"
                 });
 
